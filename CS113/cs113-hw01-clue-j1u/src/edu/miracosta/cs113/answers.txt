@@ -1,0 +1,16 @@
+How often do you get a solution in fewer than 20 guesses? Does this change depending on the theory you test (1, 2, 3)?
+
+I get a solution in fewer than 20 guesses around 75% of the time. It does change depending on the theory I test,
+for example theory 1 will be solved very quickly because the ordered triplet 1,1,1 is the default check for my algorithm.
+For theory 2, it will always take a pretty huge amount of guesses because I am looping through each solution linearly
+from 1-6 or 1-10 respectively. For theory 3 it depends if there are multiple wrong and the numerical order of each item
+found in the switch statement.
+
+
+What is good or bad about this strategy?
+
+It exhausts every possibility for each item, however as the number and range of items increase my algorithm becomes more
+and more inefficient.
+
+
+
